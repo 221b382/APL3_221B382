@@ -1,5 +1,6 @@
 class Lion extends Animal {
-        void makeVoice() {
-            System.out.println("Lion says: Roar");
-        }
+    @Override
+    void makeVoice() {
+        System.out.println("Roar");
     }
+}

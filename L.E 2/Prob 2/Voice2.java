@@ -8,35 +8,30 @@ public class Voice2 {
             System.out.println("Cow says: Moo");
         }
     }
-
     class Dog extends Animal {
         @Override
         void makeVoice() {
             System.out.println("Dog says: Woof");
         }
     }
-
     class Pig extends Animal {
         @Override
         void makeVoice() {
             System.out.println("Pig says: Oink");
         }
     }
-
     class Goat extends Animal {
         @Override
         void makeVoice() {
             System.out.println("Goat says: Baa");
         }
     }
-
     class Lion extends Animal {
         @Override
         void makeVoice() {
             System.out.println("Lion says: Roar");
         }
     }
-
     private Animal[] animals;
 
     private void prepareVoice() {
